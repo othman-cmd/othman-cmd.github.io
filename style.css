@@ -1,0 +1,22 @@
+body{
+    background-color: #eee;
+
+
+}
+header nav {
+    background-color: #ddd;
+
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+padding: 5px;
+}
+header nav ul li a {
+    color: #121212;
+    text-decoration: none; 
+}
