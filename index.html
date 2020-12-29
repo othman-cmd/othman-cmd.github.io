@@ -2,74 +2,109 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Othman webservices</a>
+       
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Othman</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                </li>
-                <li>
-                    <a href="index.html#experience">experience</a>
-
-                </li>
-                <li>
-                    <a href="index.html#skills">skills</a>
-    
-                </li>
-                <li>
-                    <a href="index.html#projects">projects</a>
-    
-                </li>
-                <li>
-                    <a href="index.html#contect">contect</a>
-    
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html#experience">experience <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#skills">skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#projects">projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+               
+            </div>
         </nav>
     </header>
-    <main>
+    <main class="container">
         <section id="experience">
             <h2>experience</h2>
-        <p>noch Anfänger beim Erlernen des Programmierens bzw. der Programmiersprachen.</p>
-        
+            <p>noch Anfänger beim Erlernen des Programmierens bzw. der Programmiersprachen.</p>
+
+            <button type="button" class="btn btn-primary">Primary</button>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top"
+                    src=" https://scontent.fdtm2-2.fna.fbcdn.net/v/t31.0-8/27500592_1468916606564490_6731464997840890080_o.jpg?_nc_cat=100&ccb=2&_nc_sid=8bfeb9&_nc_eui2=AeGehJVxunFrzajQZP8PnQac6UebSVZiRn7pR5tJVmJGfg5BeguYLTkEeu5Uilnbhj5IEgwClFQ0sVvuXLuf8e7T&_nc_ohc=uYFisO4mVecAX_u7LuE&_nc_ht=scontent.fdtm2-2.fna&oh=261d53c6cdc7444340b8d32e0ba3fba0&oe=600DFAEE"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
         </section>
         <section id="skills">
             <h2>skills</h2>
             <p>Skifahren</p>
-            <img src= " https://scontent.fdtm2-2.fna.fbcdn.net/v/t31.0-8/27500592_1468916606564490_6731464997840890080_o.jpg?_nc_cat=100&ccb=2&_nc_sid=8bfeb9&_nc_eui2=AeGehJVxunFrzajQZP8PnQac6UebSVZiRn7pR5tJVmJGfg5BeguYLTkEeu5Uilnbhj5IEgwClFQ0sVvuXLuf8e7T&_nc_ohc=uYFisO4mVecAX_u7LuE&_nc_ht=scontent.fdtm2-2.fna&oh=261d53c6cdc7444340b8d32e0ba3fba0&oe=600DFAEE" 
-            <p="200" height="300"> 
-                
-        
+            <img src=" https://scontent.fdtm2-2.fna.fbcdn.net/v/t31.0-8/27500592_1468916606564490_6731464997840890080_o.jpg?_nc_cat=100&ccb=2&_nc_sid=8bfeb9&_nc_eui2=AeGehJVxunFrzajQZP8PnQac6UebSVZiRn7pR5tJVmJGfg5BeguYLTkEeu5Uilnbhj5IEgwClFQ0sVvuXLuf8e7T&_nc_ohc=uYFisO4mVecAX_u7LuE&_nc_ht=scontent.fdtm2-2.fna&oh=261d53c6cdc7444340b8d32e0ba3fba0&oe=600DFAEE"
+                <p="200" height="300">
+
+
         </section>
         <section id="projects">
             <h2>projects</h2>
-        <p>noch keine vorhanden</p>
-        
+            <p>noch keine vorhanden</p>
+
         </section>
-        <section id="contect">
+        <section id="contact">
             <h2>contect</h2>
-        <p> Othman Alobaid,                          
+            <p> Othman Alobaid,
 
 
 
-           Telefonnummer:+4915770079943
+                Telefonnummer:+4915770079943
 
 
 
-           Adresse:Halbe Stadt 33, 15230 Frankfurt (Oder),
+                Adresse:Halbe Stadt 33, 15230 Frankfurt (Oder),
 
 
-           
-            Email:othman_690@hotmail.com</p>
-        
+
+                Email:othman_690@hotmail.com</p>
+
         </section>
     </main>
 
