@@ -35,3 +35,7 @@ header nav ul li a:hover {
     color: #666666;
     font-size: 30px;
 }
+
+.circle {
+    border-radius: 50%;
+}
