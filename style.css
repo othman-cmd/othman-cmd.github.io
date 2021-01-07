@@ -1,5 +1,8 @@
 body {
-    background-color: #eeeeee;
+    background-color: gainsboro;
+    background-image: url("backround.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 main {
@@ -7,7 +10,7 @@ main {
 }
 
 header nav {
-    background-color: #ddd;
+    background-color: rgb(136, 161, 140);
     position: fixed;
     top: 0;
     left: 0;
@@ -16,7 +19,7 @@ header nav {
 header nav ul {
     display: flex;
     list-style: none;
-    margin: 0;
+    margin-top: 16px;
     padding: 0;
 }
 
@@ -32,10 +35,15 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #666666;
-    font-size: 30px;
+    color: #b82424;
+    font-size: 40px;
 }
 
 .circle {
     border-radius: 50%;
+}
+
+#image img {
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
